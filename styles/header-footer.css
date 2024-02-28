@@ -1,0 +1,27 @@
+.public-sans-<uniquifier> {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+   
+}
+header{
+    background-color: red;
+    display: flex;
+    width: 100vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: space-around;
+}
+header .menu-links{
+
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

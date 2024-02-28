@@ -1,0 +1,107 @@
+/* Reset de estilos para todas as tags */
+
+/* Definir margens e preenchimentos para zero */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border no cálculo do tamanho */
+}
+
+/* Zerar as fontes */
+body,
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Zerar tamanhos de fonte padrão */
+h1, h2, h3, h4, h5, h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+}
+
+/* Remover decorações de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Redefinir lista padrão */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Redefinir elementos incorporados */
+img,
+iframe {
+    border: 0;
+}
+
+/* Redefinir a largura máxima para elementos de mídia */
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+/* Remover espaçamento extra nas tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
