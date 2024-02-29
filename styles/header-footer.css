@@ -13,6 +13,8 @@ header{
     align-items: center;
     justify-content: space-around;
     font-weight: 400;
+    position: relative;
+    z-index: 2;
 }
 header .menu-links a{
     padding: 10px 0;

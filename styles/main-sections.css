@@ -1,0 +1,40 @@
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.home .text-home{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 10%;
+    text-align: left;
+}
+.text-home h1{
+    font-size: 60px;
+    color: hsl(220, 23%, 18%);
+}
+.text-home p{
+    color: gray;
+    margin: 10px 0;
+}
+
+.home .image-home{
+    background-image: url("../images/bg-intro-desktop.svg");
+    background-size: cover;
+    transform: translate(0, -10vh);
+    width: 100%;
+    
+    text-align: right;
+    position: relative;
+    z-index: 1;
+}
+.home .image-home img{
+    width: 100%;
+    transform: translate(10vh, -2vh);
+}
+.why-choose{
+    background-color: rgba(190, 190, 190, 0.322);
+    transform: translate(0,-9vh);
+}
