@@ -26,27 +26,27 @@
 .home .image-home {
     background-image: url("../images/bg-intro-desktop.svg");
     background-size: cover;
-    transform: translate(0, -10vh);
     width: 100%;
-
     text-align: right;
     position: relative;
-    z-index: 1;
+    overflow: hidden;
 }
 
 .home .image-home img {
     width: 100%;
-    transform: translate(10vh, -2vh);
+    transform: translate(10vh, -12vh);
+    z-index: 2;
 }
 
 .why-choose {
     background-color: rgba(190, 190, 190, 0.322);
-    transform: translate(0, -9vh);
+    transform: translate(0, -7.5vh);
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
     padding: 100px 0;
+    z-index: 1;
 }
 
 .why-choose .top-choose {
@@ -132,7 +132,7 @@
     height: 170px;
 }
 .article-text{
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     text-align: left;
     color: rgb(97, 96, 96);
